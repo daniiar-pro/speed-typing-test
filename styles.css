@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.controls {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.controls button {
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.timer {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.text-display {
+  border: 1px solid #ccc;
+  padding: 20px;
+  font-size: 18px;
+  height: 200px;
+  overflow-y: auto;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+}
+
+.text-display .word {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.text-display .current-word {
+  background-color: grey;
+  color: black;
+}
+
+#text-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.results {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#metrics-chart {
+  width: 100%;
+  height: 300px;
+  margin-top: 30px;
+}
+
+.word {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.char {
+  display: inline-block;
+}
+
+.char.correct {
+  color: green;
+}
+
+.char.incorrect {
+  color: red;
+}
+
+.word.current-word {
+  background-color: lightgrey;
+}
+
+.word.correct-word {
+  color: green;
+}
+
+.word.incorrect-word {
+  color: red;
+}
+
+.space {
+  display: inline-block;
+  width: 5px;
+}
