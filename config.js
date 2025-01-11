@@ -1,1 +1,1 @@
-export const set_duration = 10;
+export const set_duration = 30;
